@@ -20,6 +20,8 @@ services:
     restart: always
     networks:
       - app-network
+    volumes:
+      - ./init/mongo:/docker-entrypoint-initdb.d
 
 networks:
   app-network:
