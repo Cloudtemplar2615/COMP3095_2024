@@ -1,8 +1,8 @@
-package com.example.productservice.controller;
+package ca.gbc.productservice.controller;
 
-import com.example.productservice.dto.ProductRequest;
-import com.example.productservice.dto.ProductResponse;
-import com.example.productservice.service.ProductService;
+import ca.gbc.productservice.dto.ProductRequest;
+import ca.gbc.productservice.dto.ProductResponse;
+import ca.gbc.productservice.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

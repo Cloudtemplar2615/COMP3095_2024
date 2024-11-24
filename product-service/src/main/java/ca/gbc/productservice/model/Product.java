@@ -1,4 +1,4 @@
-package com.example.productservice.model;
+package ca.gbc.productservice.model;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;

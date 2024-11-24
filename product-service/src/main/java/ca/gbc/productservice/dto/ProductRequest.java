@@ -1,4 +1,4 @@
-package com.example.productservice.dto;
+package ca.gbc.productservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

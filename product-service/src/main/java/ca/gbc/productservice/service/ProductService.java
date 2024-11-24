@@ -1,9 +1,9 @@
-package com.example.productservice.service;
+package ca.gbc.productservice.service;
 
-import com.example.productservice.dto.ProductRequest;
-import com.example.productservice.dto.ProductResponse;
-import com.example.productservice.model.Product;
-import com.example.productservice.repository.ProductRepository;
+import ca.gbc.productservice.dto.ProductRequest;
+import ca.gbc.productservice.dto.ProductResponse;
+import ca.gbc.productservice.model.Product;
+import ca.gbc.productservice.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

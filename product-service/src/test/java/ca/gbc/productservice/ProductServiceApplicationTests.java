@@ -1,8 +1,8 @@
-package com.example.productservice;
+package ca.gbc.productservice;
 
-import com.example.productservice.dto.ProductRequest;
-import com.example.productservice.model.Product;
-import com.example.productservice.repository.ProductRepository;
+import ca.gbc.productservice.dto.ProductRequest;
+import ca.gbc.productservice.model.Product;
+import ca.gbc.productservice.repository.ProductRepository;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.BeforeEach;

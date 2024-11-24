@@ -1,4 +1,4 @@
-package com.example.productservice;
+package ca.gbc.productservice;
 
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;

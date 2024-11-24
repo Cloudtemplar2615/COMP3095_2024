@@ -1,2 +1,2 @@
 rootProject.name = "microservices-parent"
-include("product-service")
+include("product-service","inventory-service")

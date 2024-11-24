@@ -1,7 +1,8 @@
 plugins {
     java
-    //id("org.springframework.boot") version "3.4.0"
-    //id("io.spring.dependency-management") version "1.1.6"
+    id("org.springframework.boot") version "3.4.0" apply false
+    id("io.spring.dependency-management") version "1.1.6"
+
 }
 
 group = "ca.gbc"
@@ -18,11 +19,15 @@ repositories {
 }
 
 dependencies {
-    implementation("org.springframework.boot:spring-boot-starter")
-    testImplementation("org.springframework.boot:spring-boot-starter-test")
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    // Root-level dependencies, if needed (not Spring Boot-specific)
 }
 
-tasks.withType<Test> {
-    enabled=false
+subprojects {
+    repositories {
+        mavenCentral()
+    }
+
+    tasks.withType<Test> {
+        useJUnitPlatform()
+    }
 }
